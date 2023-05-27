@@ -6,7 +6,7 @@
 //
 
 import Vapor
-import Feather
+import FeatherCore
 import SwiftRss
 
 final class WebRssTemplate: AbstractTemplate<WebRssContext> {

@@ -10,12 +10,14 @@ let package = Package(
         .library(name: "WebModule", targets: ["WebModule"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/feathercms/feather-core", .branch("dev")),
-        .package(url: "https://github.com/feathercms/web-objects", .branch("main")),
+		.package(path: "../feather-core"),
+		.package(path: "../web-objects"),
+//        .package(url: "https://github.com/feathercms/feather-core", .branch("dev")),
+//        .package(url: "https://github.com/feathercms/web-objects", .branch("main")),
     ],
     targets: [
         .target(name: "WebModule", dependencies: [
-                .product(name: "Feather", package: "feather-core"),
+                .product(name: "FeatherCore", package: "feather-core"),
                 .product(name: "WebObjects", package: "web-objects"),
             ],
             resources: [

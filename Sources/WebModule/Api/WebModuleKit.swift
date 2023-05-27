@@ -7,7 +7,7 @@
 
 import Vapor
 import Fluent
-import Feather
+import FeatherCore
 
 public extension HookName {
     static let installWebPages: HookName = "install-web-pages"
