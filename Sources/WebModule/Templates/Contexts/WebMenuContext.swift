@@ -5,7 +5,7 @@
 //  Created by Tibor Bodecs on 2021. 11. 30..
 //
 
-import Feather
+import FeatherCore
 
 public struct WebMenuContext {
     public let key: String

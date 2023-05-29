@@ -8,7 +8,7 @@
 import Foundation
 import Vapor
 import Fluent
-import Feather
+import FeatherCore
 
 final class WebMenuModel: FeatherDatabaseModel {
     typealias Module = WebModule

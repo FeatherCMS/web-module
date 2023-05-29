@@ -5,7 +5,7 @@
 //  Created by Tibor Bodecs on 2022. 02. 23..
 //
 
-import Feather
+import FeatherCore
 
 @_cdecl("createWebModule")
 public func createWebModule() -> UnsafeMutableRawPointer {

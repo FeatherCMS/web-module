@@ -7,7 +7,7 @@
 
 import Vapor
 import Liquid
-import Feather
+import FeatherCore
 
 final class WebSettingsForm: AbstractForm {
 
