@@ -6,7 +6,7 @@
 //
 
 import Vapor
-import Feather
+import FeatherCore
 
 struct WebMenuItemEditor: FeatherModelEditor {
     let model: WebMenuItemModel
